@@ -1,5 +1,4 @@
-
- # Test Step: 1
+### Test Step: 1
    Requirement: Select Country  
    Input: Click
    Expected Output: The clicked country should be choosen
