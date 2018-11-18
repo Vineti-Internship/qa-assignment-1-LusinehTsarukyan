@@ -1,5 +1,5 @@
 ### Test Step: 1
-   Requirement: Select Country<br/>  
+   Requirement: Select Country
    Input: Click<br/>
    Expected Output: The clicked country should be choosen<br/>
 
