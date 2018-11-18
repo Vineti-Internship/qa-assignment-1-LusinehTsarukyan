@@ -1,44 +1,47 @@
-1. Test Step: 1
+
+ # Test Step: 1
    Requirement: Select Country  
    Input: Click
    Expected Output: The clicked country should be choosen
 
-   Test Step: 2
+ # Test Step: 2
    Requirement: Select Type Of Order 
    Input: Click
    Expected Output: The clicked type should be choosen
 
-   Test Step: 3
+ # Test Step: 3
    Requirement: Select Shipping Method 
    Input: Click
    Expected Output: The clicked method should be choosen
 
-   Test Step: 4
+ # Test Step: 4
    Requirement: Select Real Weight / kg
    Input: Input
    Expected: The input should be a number >= 0
 
-   Test Step: 5
+ # Test Step: 5
    Requirement: Select Button high
    Input: Click
    Expected Output: After click, the number in the input box should increment by 1
 
-   Test Step: 6
+ # Test Step: 6
    Requirement: Select Button low
    Input: Click
    Expected Output: After click, the number in the input box should decrement by 1, when == 0     stay 0
 
-   Test Step: 7
+ # Test Step: 7
    Requirement: Select kg / pound
    Input: Click
    Expected Output: After click, should be seen cm/kg and inch/pound. After choosing should       be seen in the box the choosen one.
  
-   Test Step: 8
+# Test Step: 8
+   Requirement: Validate Cost
+   Input: Select Country == Russia; Select Type Of Order == Online; Select Shipping Method  ==    by air; Select Real Weight / kg == 100; Select kg / pound == inch/pound; 
+   Expected Output: Shipping Cost must return valid number. SHIPPING COST == 158757  AMD.
+
+ # Test Step: 9
    Requirement: Shipping Cost
    Input: Click
-   Expected Output: After changing Country, Real Weight or kg/pound, Shipping Cost must be        changed. 
+   Expected Output: After changing Country, Real Weight or kg/pound, Shipping Cost must be        changed and must be valid for each scenario. 
    
-   Test Step: 9
-   Requirement: Validate Cost
-   Expected Output: Shipping Cost must return valid numbers.
-
+ 
